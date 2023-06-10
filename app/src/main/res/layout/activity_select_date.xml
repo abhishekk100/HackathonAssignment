@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context=".SelectDate">
+
+<Button
+    android:id="@+id/selectDateButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_date"
+    tools:ignore="VisualLintButtonSize" />
+
+<TextView
+    android:id="@+id/selectedDateTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="@string/selected_date"
+    android:textAppearance="?android:textAppearanceMedium" />
+
+<Button
+    android:id="@+id/selectTimeButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_time"
+    android:layout_marginTop="16dp"
+    tools:ignore="VisualLintButtonSize" />
+
+<TextView
+    android:id="@+id/selectedTimeTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="@string/selected_time"
+    android:textAppearance="?android:textAppearanceMedium" />
+
+</LinearLayout>

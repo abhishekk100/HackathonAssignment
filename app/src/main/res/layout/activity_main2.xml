@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/createView"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:text="@string/create_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="326dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/password"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginView"
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints=""
+        tools:ignore="LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/emailMobile"
+        android:layout_width="326dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/mobilenumber_or_email"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="LabelFor,TextFields,TextSizeCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/loginView"
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/login2"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="248dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="268dp"
+        android:text="@string/login3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/newuserView"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:text="@string/new_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
+        app:layout_constraintVertical_bias="0.205" />
+</androidx.constraintlayout.widget.ConstraintLayout>
